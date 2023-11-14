@@ -4,10 +4,11 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    background:linear-gradient(-45deg, rgb(34, 255, 0), pink, orange);
 }
 
 .calculator {
-    border: 1px solid #ccc;
+    border: 2px solid #ccc;
     width: 300px;
     background-color: #f0f0f0;
     border-radius: 5px;
@@ -16,7 +17,7 @@ body {
 }
 
 #display {
-    width: 100%;
+    width: 80%;
     height: 50px;
     border: none;
     font-size: 20px;
@@ -31,8 +32,8 @@ body {
 }
 
 .btn {
-    border: none;
-    background-color: #4CAF50;
+    border: 1px solid white;
+    background-color: #acaf4c;
     color: white;
     font-size: 20px;
     padding: 15px 0;
@@ -40,5 +41,5 @@ body {
 }
 
 .btn:hover {
-    background-color: #45a049;
+    background-color: rgb(206, 214, 168)
 }
